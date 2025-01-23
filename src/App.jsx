@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 
 import "./App.css";
 import Companies from "./components/Companies/Companies";
+import Residencies from "./components/Residencies/Residencies";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
         </div>
       </div>
       <Companies />
+      <Residencies/>
     </>
   );
 }
